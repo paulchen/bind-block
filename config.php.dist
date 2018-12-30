@@ -1,0 +1,6 @@
+<?php
+$db_host = 'localhost';
+$db_name = 'ns';
+$db_user = 'ns';
+$db_pass = '';
+

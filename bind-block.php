@@ -1,9 +1,5 @@
 <?php
-// TODO
-$db_host = 'localhost';
-$db_name = 'ns';
-$db_user = 'ns';
-$db_pass = '';
+require_once(dirname(__FILE__) . '/config.php');
 
 $db = new PDO("mysql:dbname=$db_name;host=$db_host", $db_user, $db_pass);
 
